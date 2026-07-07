@@ -27,7 +27,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = "21"
+        jvmTarget = 1"
     }
 }
 
