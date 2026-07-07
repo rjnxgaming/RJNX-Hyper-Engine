@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/background"
+                android:endColor="@color/background_variant"
+                android:angle="135"
+                android:type="linear" />
+        </shape>
+    </item>
+    
+    <!-- Cyberpunk Grid Pattern Overlay -->
+    <item>
+        <bitmap
+            android:src="@drawable/pattern_cyber_grid"
+            android:tileMode="repeat"
+            android:opacity="0.1" />
+    </item>
+    
+    <!-- Glow Effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@android:color/transparent"
+                android:centerColor="@color/glow_pink"
+                android:endColor="@android:color/transparent"
+                android:angle="45"
+                android:type="radial"
+                android:gradientRadius="50%p" />
+        </shape>
+    </item>
+</layer-list>

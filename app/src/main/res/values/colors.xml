@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyberpunk Dark Theme Colors -->
+    
+    <!-- Primary Colors -->
+    <color name="primary">#FF00FF</color>
+    <color name="primary_container">#FF3366</color>
+    <color name="primary_variant">#CC00CC</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary">#00FFFF</color>
+    <color name="secondary_container">#00CCCC</color>
+    <color name="secondary_variant">#009999</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="tertiary">#FF6600</color>
+    <color name="tertiary_container">#CC5500</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#0A0A0F</color>
+    <color name="background_variant">#12121A</color>
+    <color name="surface">#1A1A25</color>
+    <color name="surface_variant">#252535</color>
+    <color name="surface_container">#303040</color>
+    
+    <!-- Text Colors -->
+    <color name="on_primary">#000000</color>
+    <color name="on_primary_container">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_secondary_container">#FFFFFF</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_variant">#B0B0C0</color>
+    <color name="on_background">#FFFFFF</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#FF4444</color>
+    <color name="error_container">#FF6666</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="on_error_container">#000000</color>
+    
+    <!-- Success Colors -->
+    <color name="success">#44FF44</color>
+    <color name="success_container">#66FF66</color>
+    <color name="on_success">#000000</color>
+    
+    <!-- Warning Colors -->
+    <color name="warning">#FFCC00</color>
+    <color name="warning_container">#FFDD33</color>
+    <color name="on_warning">#000000</color>
+    
+    <!-- Accent Colors -->
+    <color name="cyber_pink">#FF2D75</color>
+    <color name="cyber_blue">#00D4FF</color>
+    <color name="cyber_purple">#9D4EDD</color>
+    <color name="cyber_green">#00FF88</color>
+    <color name="cyber_orange">#FF6B35</color>
+    <color name="cyber_yellow">#FFE600</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FF00FF</color>
+    <color name="gradient_middle">#00FFFF</color>
+    <color name="gradient_end">#FF6600</color>
+    
+    <!-- Card Colors -->
+    <color name="card_background">#1E1E2E</color>
+    <color name="card_stroke">#33334A</color>
+    
+    <!-- Divider Colors -->
+    <color name="divider">#2A2A3A</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_light">#80000000</color>
+    <color name="overlay_medium">#A0000000</color>
+    <color name="overlay_dark">#C0000000</color>
+    
+    <!-- Glow Colors -->
+    <color name="glow_pink">#80FF00FF</color>
+    <color name="glow_blue">#8000FFFF</color>
+    <color name="glow_purple">#809D4EDD</color>
+    
+    <!-- Material 3 Theme Colors -->
+    <color name="md_ref_pal_surface">#1A1A25</color>
+    <color name="md_ref_pal_surface_dim">#12121A</color>
+    <color name="md_ref_pal_surface_bright">#303040</color>
+    <color name="md_ref_pal_surface_container_lowest">#0A0A0F</color>
+    <color name="md_ref_pal_surface_container_low">#1A1A25</color>
+    <color name="md_ref_pal_surface_container">#252535</color>
+    <color name="md_ref_pal_surface_container_high">#303040</color>
+    <color name="md_ref_pal_surface_container_highest">#3A3A4A</color>
+</resources>

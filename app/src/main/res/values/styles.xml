@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Styles -->
+    <style name="TextStyle.H1" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:textSize">@dimen/text_size_4xl</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <style name="TextStyle.H2" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="android:textSize">@dimen/text_size_3xl</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <style name="TextStyle.H3" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="android:textSize">@dimen/text_size_2xl</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+    
+    <style name="TextStyle.H4" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textSize">@dimen/text_size_xl</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextStyle.H5" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textSize">@dimen/text_size_lg</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextStyle.H6" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="TextStyle.Subtitle1" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextStyle.Subtitle2" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textSize">@dimen/text_size_sm</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <style name="TextStyle.Body1" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineHeight">24sp</item>
+    </style>
+    
+    <style name="TextStyle.Body2" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textSize">@dimen/text_size_sm</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineHeight">20sp</item>
+    </style>
+    
+    <style name="TextStyle.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textSize">@dimen/text_size_xs</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineHeight">16sp</item>
+    </style>
+    
+    <style name="TextStyle.Overline" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textSize">@dimen/text_size_xs</item>
+        <item name="android:textColor">@color/on_surface_variant</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    
+    <style name="TextStyle.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+    
+    <!-- Cyberpunk Glow Text Style -->
+    <style name="TextStyle.Glow">
+        <item name="android:shadowColor">@color/cyber_pink</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">10</item>
+    </style>
+    
+    <!-- Card Styles -->
+    <style name="CardStyle.Primary">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardStrokeColor">@color/card_stroke</item>
+        <item name="cardStrokeWidth">@dimen/card_stroke_width</item>
+    </style>
+    
+    <style name="CardStyle.Gradient">
+        <item name="cardBackgroundColor">@android:color/transparent</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+    </style>
+    
+    <!-- Button Styles -->
+    <style name="ButtonStyle.Primary">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:textColor">@color/on_primary</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_md</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+    
+    <style name="ButtonStyle.Secondary">
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="android:textColor">@color/on_secondary</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_md</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+    
+    <style name="ButtonStyle.Outlined">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_md</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">@dimen/button_radius</item>
+    </style>
+    
+    <!-- Input Field Styles -->
+    <style name="InputFieldStyle">
+        <item name="android:background">@drawable/input_field_background</item>
+        <item name="android:textColor">@color/on_surface</item>
+        <item name="android:textSize">@dimen/text_size_md</item>
+        <item name="android:fontFamily">@font/jetbrains_mono</item>
+        <item name="android:minHeight">@dimen/text_field_height</item>
+        <item name="android:paddingHorizontal">@dimen/spacing_md</item>
+        <item name="cornerRadius">@dimen/text_field_radius</item>
+        <item name="strokeColor">@color/card_stroke</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    
+    <!-- Switch Style -->
+    <style name="SwitchStyle">
+        <item name="thumbColor">@color/primary</item>
+        <item name="trackColor">@color/primary_container</item>
+        <item name="thumbRadius">@dimen/switch_thumb_size</item>
+    </style>
+    
+    <!-- Progress Bar Style -->
+    <style name="ProgressBarStyle">
+        <item name="color">@color/primary</item>
+        <item name="cornerRadius">@dimen/progress_radius</item>
+    </style>
+    
+    <!-- Divider Style -->
+    <style name="DividerStyle">
+        <item name="android:background">@color/divider</item>
+        <item name="android:layout_height">@dimen/divider_height</item>
+    </style>
+</resources>

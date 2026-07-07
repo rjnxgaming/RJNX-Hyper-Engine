@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RJNX Hyper Engine</string>
+    <string name="app_description">Next-Generation Gaming Performance Engine</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_title">RJNX HYPER ENGINE</string>
+    <string name="splash_subtitle">Initializing Quantum Core...</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_games">Games</string>
+    <string name="nav_performance">Performance</string>
+    <string name="nav_adb">ADB</string>
+    <string name="nav_ai">AI</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Dashboard</string>
+    <string name="home_welcome">Welcome to Hyper Engine</string>
+    <string name="home_subtitle">Unleash the full potential of your device</string>
+    <string name="home_cpu_usage">CPU Usage</string>
+    <string name="home_memory_usage">Memory Usage</string>
+    <string name="home_storage_usage">Storage Usage</string>
+    <string name="home_battery_temp">Battery Temp</string>
+    <string name="home_quick_actions">Quick Actions</string>
+    <string name="home_boost_now">Boost Now</string>
+    <string name="home_clean_cache">Clean Cache</string>
+    <string name="home_cool_down">Cool Down</string>
+    
+    <!-- Games Screen -->
+    <string name="games_title">Games</string>
+    <string name="games_subtitle">Your Gaming Library</string>
+    <string name="games_installed">Installed Games</string>
+    <string name="games_recent">Recent Games</string>
+    <string name="games_all">All Games</string>
+    <string name="games_search_hint">Search games...</string>
+    <string name="games_no_games">No games found</string>
+    
+    <!-- Performance Screen -->
+    <string name="performance_title">Performance</string>
+    <string name="performance_subtitle">Real-time System Monitoring</string>
+    <string name="performance_cpu">CPU Monitor</string>
+    <string name="performance_gpu">GPU Monitor</string>
+    <string name="performance_ram">RAM Monitor</string>
+    <string name="performance_network">Network Monitor</string>
+    <string name="performance_fps">FPS Counter</string>
+    <string name="performance_thermal">Thermal Status</string>
+    
+    <!-- ADB Screen -->
+    <string name="adb_title">ADB Tools</string>
+    <string name="adb_subtitle">Advanced Debug Bridge</string>
+    <string name="adb_connect">Connect via ADB</string>
+    <string name="adb_disconnect">Disconnect</string>
+    <string name="adb_wireless">Wireless Debugging</string>
+    <string name="adb_commands">ADB Commands</string>
+    <string name="adb_logcat">View Logcat</string>
+    <string name="adb_shell">ADB Shell</string>
+    <string name="adb_status_connected">Connected</string>
+    <string name="adb_status_disconnected">Disconnected</string>
+    
+    <!-- AI Screen -->
+    <string name="ai_title">AI Assistant</string>
+    <string name="ai_subtitle">Intelligent Gaming Companion</string>
+    <string name="ai_chat">Chat with AI</string>
+    <string name="ai_optimize">AI Optimization</string>
+    <string name="ai_predict">Performance Prediction</string>
+    <string name="ai_recommend">Game Recommendations</string>
+    <string name="ai_voice">Voice Assistant</string>
+    <string name="ai_type_hint">Type your message...</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Customize Your Experience</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_dark">Dark</string>
+    <string name="settings_light">Light</string>
+    <string name="settings_system">System</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_privacy">Privacy Policy</string>
+    <string name="settings_terms">Terms of Service</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+    <string name="back">Back</string>
+    <string name="more">More</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="no_data">No data available</string>
+</resources>
